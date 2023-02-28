@@ -1,0 +1,21 @@
+:root{
+    --grey-medium: #333;
+    --grey-light: #e2e2e2;
+    --grey_light-text: #9c9c9c;
+    --red-medium: #ee665c;
+    --white: #fff;
+    --background-test: #00d4ca;
+}
+
+* {
+    background-color: var(--background-test);
+}
+
+.test {
+    align-items: center;
+    color: var(--grey-medium);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
